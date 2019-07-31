@@ -1,0 +1,28 @@
+
+#color{
+  background-image: url("source.gif");
+  background-color:#B0DFE5;
+
+}
+
+
+#ret{
+  font-size: 60px;
+  font-family: 'Butcherman';
+  font-weight: 10;
+  font-style: normal;
+  text-align: center;
+
+
+
+}
+.box{
+	width:10000px;
+	height:100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.red{
+	background:blue;
+}

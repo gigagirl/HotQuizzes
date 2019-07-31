@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <style>
+        #picture {
+          width : 107px;
+          height : 98px;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+      function func(){
+
+          var random = Math.floor((Math.random() * 49));
+          var cars = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado',
+          'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois',
+          'Indiana', 'Iowa',
+          'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts',
+          'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska',
+          'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina',
+          'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina',
+           'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia'
+           ,'Wisconsin', 'Wyoming'];
+          var ran = cars[random];
+          alert(ran);
+
+      }
+
+    </script>
+
+  </head>
+  <body>
+    <link rel = "stylesheet" href="website.css">
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="font-effect-3d" id = "ret">What's his personality?</div>
+    <a href=file:///Users/girlswhocode/Desktop/cool.html>Click Here to Retake the Quiz!</a>
+    <img id = "a" STYLE="position:absolute; TOP:250px; LEFT:0px; WIDTH:1400px; HEIGHT:560px" SRC="perso.png" onclick = "func()">
+
+  </body>
+</html>
